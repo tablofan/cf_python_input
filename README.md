@@ -47,7 +47,7 @@ string = input()
 In this case, the 2 is dealt with by our template.
 Each of our solve function would then look like:
 ```python
-def solve():
+    def solve():
 	n = int(input())
 	a = [int(i) for i in input().split()]
 	# OR
@@ -72,5 +72,5 @@ def main():
 
 ```python
 def solve():
-	n, r = map(int, input().split())
+    n, r = map(int, input().split())
 ```
