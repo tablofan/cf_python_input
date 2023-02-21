@@ -4,7 +4,7 @@ This guide will go through the basics of taking input with Python in Codeforces.
 
 Unlike Leetcode, Codeforces requires you take and parse the input you're given, and print out the answer.
 When your program is ran, it should be able to take input exactly as given.
-A good way to test is to paste the input straight into your IDE, where your output should exactly match the given output, including newlines where appropriate.
+A good way to test is to paste the input straight into your IDE, where your output should exactly match the given output, including newlines.
 
 ![copy](copy.png)
 
@@ -58,7 +58,7 @@ string = input()
 > 2 1 3 4 5 6 8 7
 
 In this case, the 2 is dealt with by our template.
-Each of our solve function would then look like:
+Our solve function would then look like:
 ```python
 def solve():
     n = int(input())
