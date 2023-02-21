@@ -6,7 +6,7 @@ Unlike Leetcode, Codeforces requires you take and parse the input you're given, 
 When your program is ran, it should be able to take input exactly as given.
 A good way to test is to paste the input straight into your IDE, where your output should exactly match the given output, including newlines where appropriate.
 
-
+![copy](copy.png)
 
 ## Template
 Base template, I recommend starting with this if you have never touched CF before. Feel free to customize as you see fit.
