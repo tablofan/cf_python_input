@@ -36,6 +36,9 @@ if __name__ == "__main__":
 Recommended:
 Latest version of Pypy3
 
+Functionally Pypy is exactly the same as the matching Python 3 version.
+In most cases using Pypy will result in better runtime.
+
 ## Taking Input
 input() takes a whole line as a string. It's our job to process the input into the format we want.
 If we want to take a line as a string, then simply
