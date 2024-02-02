@@ -51,11 +51,13 @@ string = input()
 > The second line contains **n** distinct integers
 > 
 > Example:
-> 2
-> 5
-> 1 5 4 3 2
-> 8
-> 2 1 3 4 5 6 8 7
+```
+2
+5
+1 5 4 3 2
+8
+2 1 3 4 5 6 8 7
+```
 
 In this case, the 2 is dealt with by our template.
 Our solve function would then look like:
@@ -72,7 +74,9 @@ def solve():
 > The first and the only line of the input file contains two numbers **n** and **r**
 > 
 > Example:
-> 3 5
+```
+3 5
+```
 
 There is only 1 test case in each test so we need to change our main function to
 ```python
