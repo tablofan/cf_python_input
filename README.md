@@ -13,7 +13,7 @@ Base template, I recommend starting with this if you have never touched CF befor
 ```python
 # A significantly faster input function
 import sys  
-input = sys.stdin.readline
+input = lambda: sys.stdin.readline().rstrip()
 
 # Imports here
 
